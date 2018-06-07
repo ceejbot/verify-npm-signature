@@ -1,0 +1,45 @@
+{
+  "name": "verify-npm-signature",
+  "description": "verify the npm registry's pgp signature on a package-version",
+  "version": "1.0.0",
+  "author": "C J Silverio <ceejceej@gmail.com>",
+  "bin": {
+    "vns": "./verify.js",
+    "verify-npm-signature": "./verify.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ceejbot/verify-npm-signature/issues"
+  },
+  "dependencies": {
+    "needle": "~2.2.1",
+    "semver": "~5.5.0"
+  },
+  "devDependencies": {
+    "eslint-config-ceejbot": "~1.1.1",
+    "xo": "~0.21.1"
+  },
+  "homepage": "https://github.com/ceejbot/verify-npm-signature#readme",
+  "keywords": [
+    "keybase",
+    "npm",
+    "pgp",
+    "registry",
+    "verify npm registry signature"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceejbot/verify-npm-signature.git"
+  },
+  "scripts": {
+    "lint": "xo",
+    "test": "echo 'sorry no tests I am terrible'"
+  },
+  "xo": {
+    "extends": "eslint-config-ceejbot",
+    "rules": {
+      "unicorn/no-process-exit": 0
+    }
+  }
+}
