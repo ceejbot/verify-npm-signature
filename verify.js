@@ -36,8 +36,6 @@ async function main()
 	// And now, a whole lot of conditions to report on & bail from.
 	if (!packument.versions)
 	{
-		console.log(packument);
-
 		console.log('Malformed response from registry; not a packument!');
 		process.exit(1);
 	}
