@@ -1,7 +1,7 @@
 {
   "name": "verify-npm-signature",
   "description": "verify the npm registry's pgp signature on a package-version",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "C J Silverio <ceejceej@gmail.com>",
   "bin": {
     "vns": "./verify.js",
