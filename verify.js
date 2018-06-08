@@ -84,6 +84,7 @@ async function main()
 
 	kb.on('close', code =>
 	{
+		fs.unlinkSync(tmpfile);
 		process.exit(code);
 	});
 }
